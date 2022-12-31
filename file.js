@@ -110,8 +110,8 @@ function displayFinalResult() {
     }
     
     para.textContent = userPoint > computerPoint ? 
-    `CONGRATULATIONS!! YOU WIN` :
-    `GAME OVER! YOU LOST. Computer Score: ${computerPoint}; Your Score: ${userPoint}`;
+    `CONGRATULATIONS!! YOU WIN.` :
+    `GAME OVER! YOU LOST.`;
     button = document.createElement("button");
     button.textContent = "RESTART"
     button.setAttribute("class", "restart");
