@@ -23,6 +23,7 @@ body > div {
     justify-content: space-between;
     padding: 5px 0;
     border-radius: 8px;
+    margin-top: 15px;
 }
 
 .score-container > * {
