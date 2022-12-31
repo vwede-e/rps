@@ -49,8 +49,8 @@ body > div {
     padding: 80px 0;
 }
 
-.icon-container > * {
-    /*border: 50px solid brown; */
+.icon {
+    border: 45px solid brown;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,10 +84,17 @@ border: 35px solid hsl(349, 71%, 52%)
     display: block;
     margin: auto;
     border-radius: 10px;
-    margin-top: 15px;
+    margin-top: 50px;
+    font-size: 45px;
+    background-color: hsl(230, 89%, 62%)
+
 }
 
 .user-score, .computer-score {
     color: hsl(229, 25%, 31%)
 }
 
+.user-choice {
+    height: 220px;
+    width: 220px;
+}
