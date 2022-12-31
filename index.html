@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script type="text/javascript" src="./file.js"></script>
+    <link rel="stylesheet" href="./style.css"/>
+    <script type="text/javascript" src="./file.js" defer></script>
     <title>Document</title>
 </head>
 <body>
+    <div class="score-container">
+        <div>
+            My Score
+            <p class="user-score"  style="font-size:19px"><strong>0</strong></p>
+        </div>
+        <div>
+            Computer
+            <p class="computer-score" style="font-size: 19px"><strong>0</strong></p>
+        </div>
+    </div>
+
+    <div class="icon-container">
+        <div class="rock icon">
+            <img src="./images/icon-rock.svg"/>
+        </div>
+        <div class="paper icon">
+            <img src="./images/icon-paper.svg"/>
+        </div>
+        <div class="scissors icon">
+            <img src="./images/icon-scissors.svg"/>
+        </div>
+    </div>
+
+    <div style="border:none"><p class="para" style = "background-color: white; text-align: center;"></p></div>
+    
 </body>
 </html>
